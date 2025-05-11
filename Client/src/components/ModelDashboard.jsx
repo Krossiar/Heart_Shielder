@@ -7,7 +7,7 @@ const ModelDashboard = () => {
   const [metrics, setMetrics] = useState(null);
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:5000/metrics')
+    axios.get('https://heart-backend-em2f.onrender.com')
       .then(res => setMetrics(res.data))
       .catch(err => console.error('Failed to load metrics:', err));
   }, []);

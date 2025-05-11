@@ -29,7 +29,7 @@ const FormInput = () => {
     };
 
     try {
-      const res = await axios.post('http://127.0.0.1:5000/predict', payload);
+      const res = await axios.post('https://heart-backend-em2f.onrender.com', payload);
       setResult(res.data);
     } catch (err) {
       console.error(err);
