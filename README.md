@@ -12,7 +12,7 @@ Heart Shielder is a machine learning model designed to predict 30-day hospital r
 
 You can try a live demo of the Heart Shielder system by visiting the following link:
 
-[**Heart Shielder Demo**]([https://heart-frontend-h8y7.onrender.com/])
+[**Heart Shielder Demo**](https://heart-frontend-h8y7.onrender.com/)
 
 Feel free to explore the features and see how it works in real-time.
 
