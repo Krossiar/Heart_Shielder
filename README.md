@@ -20,7 +20,7 @@ Feel free to explore the features and see how it works in real-time.
 
 [Watch the demo](https://drive.google.com/file/d/13mNDdl7ITy10EyO5FeuRNtXGqb4avEYR/view?usp=sharing)
 
-Click the image above to watch the full demo video on Google Drive.
+Click the above to watch the full demo video on Google Drive.
 
 
 ## Prerequisites
