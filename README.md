@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f1f838ab-51f0-4a92-9d7b-5844aa31d15d)# Heart Shielder
+# Heart Shielder
 
 Heart Shielder is a machine learning model designed to predict 30-day hospital readmissions for heart failure patients. The project aims to assist healthcare providers in predicting patient readmissions and improving care management strategies.
 
@@ -18,7 +18,7 @@ Feel free to explore the features and see how it works in real-time.
 
 ## 🎥 Demo Video
 
-[![Watch the demo](./thumbnail.png)](https://drive.google.com/file/d/13mNDdl7ITy10EyO5FeuRNtXGqb4avEYR/view?usp=sharing)
+[Watch the demo](https://drive.google.com/file/d/13mNDdl7ITy10EyO5FeuRNtXGqb4avEYR/view?usp=sharing)
 
 Click the image above to watch the full demo video on Google Drive.
 
