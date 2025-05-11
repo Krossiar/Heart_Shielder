@@ -16,6 +16,13 @@ You can try a live demo of the Heart Shielder system by visiting the following l
 
 Feel free to explore the features and see how it works in real-time.
 
+## 🎥 Demo Video
+
+[![Watch the demo](./thumbnail.png)](https://drive.google.com/file/d/FILE_ID/view)
+
+Click the image above to watch the full demo video on Google Drive.
+
+
 ## Prerequisites
 
 Before running this project, make sure you have the following installed:
