@@ -1,0 +1,17 @@
+.result-card {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #e6f7e6;
+  border-left: 5px solid #28a745;
+}
+
+.positive {
+  color: #d63333;
+  font-weight: bold;
+}
+
+.negative {
+  color: #28a745;
+  font-weight: bold;
+}

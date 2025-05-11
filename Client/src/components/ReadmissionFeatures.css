@@ -1,0 +1,36 @@
+.readmission-section {
+    background-size: cover;
+    background-position: center;
+    padding: 80px 40px;
+    position: relative;
+    color: #222;
+  }
+  
+  .readmission-overlay {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .readmission-card {
+    background-color: rgba(173, 216, 230, 0.85); /* light blue with transparency */
+    padding: 30px 20px;
+    border-radius: 16px;
+    flex: 1 1 25%;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  }
+  
+  .readmission-card img {
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .readmission-card h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  

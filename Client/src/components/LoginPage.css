@@ -1,0 +1,101 @@
+.login-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #b5d8ff, #ffffff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+  }
+  
+  .login-box {
+    display: flex;
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+  }
+  
+  /* Left panel */
+  .left-panel {
+    flex: 1;
+    background: linear-gradient(to bottom, #0a3d62, #2980b9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 2rem;
+  }
+  
+  .left-panel .logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+  }
+  
+  .left-panel h1 {
+    margin: 0.3rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  /* Right panel */
+  .right-panel {
+    flex: 1;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .right-panel h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #222;
+  }
+  
+  .new-user,
+  .forgot-password {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+  }
+  
+  .new-user a,
+  .forgot-password a {
+    color: #5b3ee4;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 0.8rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #f0f0f0;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: #052d66;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0a3d62;
+  }
+  

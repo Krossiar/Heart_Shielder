@@ -1,0 +1,36 @@
+.health-tips-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f7fafd;
+  }
+  
+  .headline {
+    font-size: 3rem;
+    margin: 2rem 0;
+    font-weight: 600;
+  }
+  
+  .alert {
+    color: #1a1a1a;
+  }
+  
+  .healthy {
+    color: #333;
+  }
+  
+  .images-row {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+
+  }
+  
+  .images-row img {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
