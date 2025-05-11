@@ -8,6 +8,14 @@ Heart Shielder is a machine learning model designed to predict 30-day hospital r
 - Utilizes tabular clinical data to train the model.
 - Focuses on improving the precision of predicting patients who are readmitted (class 1 predictions).
 
+## Demo
+
+You can try a live demo of the Heart Shielder system by visiting the following link:
+
+[**Heart Shielder Demo**]([https://your-demo-link.com](https://heart-frontend-h8y7.onrender.com/))
+
+Feel free to explore the features and see how it works in real-time.
+
 ## Prerequisites
 
 Before running this project, make sure you have the following installed:
