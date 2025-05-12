@@ -8,6 +8,7 @@ const LoginPage = () => {
 
   const handleLogin = () => {
     // (Optional) Add validation/auth logic here
+    alert('Login successfully');
     navigate('/'); // Redirect to home page
   };
 

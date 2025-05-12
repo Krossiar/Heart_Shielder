@@ -3,9 +3,19 @@ import './ContactUs.css';
 import backgroundImage from '../assets/contact-background.jpg'; // replace with actual path
 
 const ContactUs = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevents the default form submission behavior
+    alert('Message sent successfully');
+    e.target.reset(); // Optional: reset the form fields
+  };
+
   return (
-    <div className="contact-container" id='contact-1' style={{ backgroundImage: `url(${backgroundImage})` }}>
-      <form className="contact-form">
+    <div
+      className="contact-container"
+      id="contact-1"
+      style={{ backgroundImage: `url(${backgroundImage})` }}
+    >
+      <form className="contact-form" onSubmit={handleSubmit}>
         <h2>Contact us</h2>
         <div className="input-row">
           <div className="input-group">
@@ -31,10 +41,13 @@ const ContactUs = () => {
           <label>How Can We Help You?</label>
           <textarea rows="4"></textarea>
         </div>
-        <button className="btn" type="submit">Submit</button>
+        <button className="btn" type="submit">
+          Submit
+        </button>
       </form>
     </div>
   );
 };
 
 export default ContactUs;
+
